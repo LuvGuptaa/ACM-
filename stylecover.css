@@ -1,0 +1,107 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.background
+{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(bgcover.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.navigation
+{
+	float: right;
+	margin-right: 30px;
+}
+.navigation li
+{
+	font-size: 20px;
+	font-family: cursive;
+	list-style: none;
+	display: inline-block;
+	margin-top: 20px; 
+}
+.navigation li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 15px;
+}
+.navigation li a:hover
+{
+	transform: scale(1.1);
+	border: 1px solid white;
+	transition: 0.3s ease;
+}
+.title
+{
+	margin-left: 25%;
+	margin-top: 200px;
+	position: absolute;
+}
+.title h1
+{
+	font-family: cursive;
+	font-size: 55px;
+	color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn{
+	margin-top: 500px;
+	margin-left: 42%;
+	position: absolute;
+}
+.btn a
+{
+	border: 2px solid white;
+	font-family: cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	margin-right: 20px;
+	text-decoration: none;
+	color: white;
+}
+.btn a:hover
+{
+	background-color: goldenrod;
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
